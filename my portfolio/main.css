@@ -1,0 +1,85 @@
+@media only screen and (max-width: 767px) {
+
+    .widget-profil {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+.widget-profil {
+    height: 580px;
+    float: right;
+}
+
+.widget-profil .circle {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+}
+
+
+
+
+.widget-profil .head-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.widget-profil .head-image {
+    z-index: 0;
+}
+
+.widget-profil .front {
+    z-index: 1;
+}
+
+
+
+
+@media only screen and (max-width: 260px) {
+
+
+    .widget-profil {
+        height: 265px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .widget-profil {
+        height: 285px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+}
+
+@media only screen and (min-width : 766px) and (max-width: 800px) {
+    .widget-profil {
+        height: 210px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+
+}
+
+@media only screen and (min-width : 800px) and (max-width : 991px) {
+
+    .widget-profil {
+        height: 210px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+
+}
